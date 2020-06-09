@@ -1,4 +1,0 @@
-Podaci za spajanje na mysql
-baza artemida: artemida_pp21
-korisnik: artemida_edunova
-lozinka: edunova

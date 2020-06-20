@@ -10,6 +10,74 @@
 </head>
 <body>
 
+
+<!--PREDAVANJE_03-->
+<h1> PREDAVANJE 03</h1>
+<p>
+       <?php 
+       //Sintaksu ćemo raditi pre PSR (https://www.php-fig.org/psr/)
+       echo 'Hello world';
+       ?>
+    </p>
+    <ul>
+        <li>
+            <a target="_blank" href="/php_osnove/echo.php">Echo naredba</a>
+        </li>
+        <li>
+            <a target="_blank" href="/php_osnove/suzivot.php">Suživot PHP i HTML</a>
+        </li>
+        <li>
+            <a target="_blank" href="/php_osnove/varijable.php">Varijable</a>
+        </li>
+        <li>
+            <a target="_blank" href="/php_osnove/unosPodataka.php">Unos podataka</a>
+        </li>
+    </ul>
+
+
+    <a target="_blank" href="/zadaci/zadatak1_03.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak2_03.php">zadatak 2</a>
+    <a target="_blank" href="/zadaci/zadatak3_03.php">zadatak 3</a>
+<br>
+<br>
+<!--PREDAVANJE_04-->
+<h1> PREDAVANJE 04</h1>
+<ul>
+<li>
+<a target="_blank" href="/php_osnove/ugradeniNizovi.php">Ugrađeni nizovi</a>
+</li>
+<li>
+<a target="_blank" href="/php_osnove/operatori.php">Operatori</a>
+</li>
+</ul>
+    
+    <hr />
+    <?php echo $_SERVER['SERVER_ADDR']; ?>
+
+    
+<!--PREDAVANJE_05-->
+<h1> PREDAVANJE 05</h1>
+<ol>
+        <li>
+            <a href="/php_osnove/if.php">Uvjetno grananje if</a>
+        </li>
+        <li>
+            <a href="/php_osnove/switch.php">Uvjetno grananje switch</a>
+        </li>
+        <li>
+            <a href="/php_osnove/for.php">For petlja</a>
+        </li>
+    </ol>
+<br>
+<br>
+    <a target="_blank" href="/zadaci/zadatak1_05.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak2_05.php">zadatak 2</a>
+    <a target="_blank" href="/zadaci/zadatak3_05.php">zadatak 3</a>
+    <a target="_blank" href="/zadaci/zadatak4_05.php">zadatak 4</a>
+    <a target="_blank" href="/zadaci/zadatak5_05.php">zadatak 5</a>
+<!--PREDAVANJE_06-->
+
+<h1> PREDAVANJE 06</h1>
 <div class="grid-container">
 <div class="grid-x grid-padding-x">
 <?php
@@ -18,7 +86,7 @@ for($i=1;$i<=$broj;$i++){
 if($i>40){
 break;
 }
-include 'panel.php';
+include '/php_osnove/panel.php';
 }
 
 ?>
@@ -27,18 +95,29 @@ include 'panel.php';
 
 <ul>
   <li>
-    <a target="_blank" href="while.php">While</a>
+    <a target="_blank" href="/php_osnove/while.php">While</a>
   </li>
   <li>
-    <a target="_blank" href="zadatak1.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak1_06.php">zadatak 1</a>
   </li>
   <li>
-    <a target="_blank" href="doWhile.php">Do while</a>
+    <a target="_blank" href="/php_osnove/doWhile.php">Do while</a>
   </li>
   <li>
-    <a target="_blank" href="foreach.php">Foreach</a>
+    <a target="_blank" href="/php_osnove/foreach.php">Foreach</a>
   </li>
 </ul>
+
+<br>
+<br>
+
+
+    <a target="_blank" href="/zadaci/zadatak1_06.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak2_06.php">zadatak 2</a>
+    <a target="_blank" href="/zadaci/zadatak3_06.php">zadatak 3</a>
+    <a target="_blank" href="/zadaci/zadatak4_06.php">zadatak 4</a>
+    <a target="_blank" href="/zadaci/zadatak5_06.php">zadatak 5</a>
+    <a target="_blank" href="/zadaci/zadatak6_06.php">zadatak 6</a>
 
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>

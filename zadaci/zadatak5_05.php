@@ -11,10 +11,20 @@
 // ulaz x=3 i y=7
 // 21,20,19,28,...., 1
 
-$i=$_GET['x'];
-$j=$_GET['y'];
+$x = $_GET['x'];
+$y = $_GET['y'];
+$xy = $x + $y;
 
 
-for($k=$i+$j;$k!=0;$k%2==0){
-    echo $k++ . '<br/>';
+if($xy%2==0){
+    for($i=0;$i<$xy;$i++){
+
+    echo $i , '<br/>';
+        }
+    }
+    else{
+        for ($i=$xy;$i>0;$i--){
+            echo $i , '<br/>';
+    } 
 }
+?>

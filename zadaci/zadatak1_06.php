@@ -19,7 +19,7 @@
 <?php
 
 while($broj-->0){
- include 'panel.php';
+ include '/php_osnove/panel.php';
 }
 
 ?>

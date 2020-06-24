@@ -86,7 +86,7 @@ for($i=1;$i<=$broj;$i++){
 if($i>40){
 break;
 }
-include '/php_osnove/panel.php';
+include 'php_osnove/panel.php';
 }
 
 ?>
@@ -96,9 +96,6 @@ include '/php_osnove/panel.php';
 <ul>
   <li>
     <a target="_blank" href="/php_osnove/while.php">While</a>
-  </li>
-  <li>
-    <a target="_blank" href="/zadaci/zadatak1_06.php">zadatak 1</a>
   </li>
   <li>
     <a target="_blank" href="/php_osnove/doWhile.php">Do while</a>
@@ -118,6 +115,7 @@ include '/php_osnove/panel.php';
     <a target="_blank" href="/zadaci/zadatak4_06.php">zadatak 4</a>
     <a target="_blank" href="/zadaci/zadatak5_06.php">zadatak 5</a>
     <a target="_blank" href="/zadaci/zadatak6_06.php">zadatak 6</a>
+    <a target="_blank" href="/zadaci/zadaca.php">Zadaća prim brojevi</a>
 
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>

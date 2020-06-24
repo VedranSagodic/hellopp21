@@ -6,4 +6,4 @@
 //html elementi i css svojtva moraju biti kreirani
 // pomoću PHP-a
 
-echo '<span style="color: red;">Tomislav</span>';
+echo '<span style="color: red;">Vedran</span>';

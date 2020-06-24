@@ -28,10 +28,10 @@ while($broj-->0){
 
 <ul>
   <li>
-    <a target="_blank" href="while.php">While</a>
+    <a target="_blank" href="/php_osnove/while.php">While</a>
   </li>
   <li>
-    <a target="_blank" href="zadatak1.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak1_06.php">zadatak 1</a>
   </li>
 </ul>
 

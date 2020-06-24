@@ -17,7 +17,7 @@
 broj 1
 <input type="number" name="prviBroj" value="<?php echo $prviBroj; ?>">
 broj 2
-<input type="number" name="drugiBroj" >
+<input type="number" name="drugiBroj" value="<?php echo $prviBroj; ?>" >
 
 
 <input class="button" type="submit" value="lista">

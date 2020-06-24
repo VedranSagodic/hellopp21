@@ -31,8 +31,11 @@ Prvi broj
 
 </form>
 <?php
-while($prviBroj>=10 && $prviBroj<=100){
-      echo  ++$prviBroj .'<br/>'; 
+for($i=$prviBroj>=10;$i=$prviBroj<=100;$i++){
+      if($i%2!=0){
+            continue;
+      }break;
+      echo  $i .'<br/>'; 
         
         
 }

@@ -117,6 +117,43 @@ include 'php_osnove/panel.php';
     <a target="_blank" href="/zadaci/zadatak6_06.php">zadatak 6</a>
     <a target="_blank" href="/zadaci/zadaca.php">Zadaća prim brojevi</a>
 
+    <h1> PREDAVANJE 07</h1>
+    <table>
+        <caption>Materijali 24.06.2020.</caption>
+        <thead>
+            <tr>
+                <th>poveznica</th>
+                <th>Naziv</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="/php_osnove/indeksniNizovi.php">X</a></td>
+                    <td>Indeksni Nizovi</td>
+            </tr>
+            <tr>
+                <td><a href="/php_osnove/asocijativniNizovi.php">X</a></td>
+                    <td>Asocijativni nizovi</td>
+            </tr>
+            <tr>
+                <td><a href="/php_osnove/koristenjeNizova.php">X</a></td>
+                    <td>Korištenje nizoca</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Gotovo</td>
+            </tr>
+        </tfoot>
+    </table>
+    <a target="_blank" href="/zadaci/zadatak1_07.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak2_07.php">zadatak 2</a>
+    <a target="_blank" href="/zadaci/zadatak3_07.php">zadatak 3</a>
+    <a target="_blank" href="/zadaci/zadatak4_07.php">zadatak 4</a>
+    <a target="_blank" href="/zadaci/zadatak5_07.php">zadatak 5</a>
+    <a target="_blank" href="/zadaci/zadatak6_07.php">zadatak 6</a>
+    <a target="_blank" href="/zadaci/zadatak7_07.php">zadatak 7</a>
+
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
 </body>

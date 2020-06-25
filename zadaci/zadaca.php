@@ -19,7 +19,7 @@ Manji broj
 Veći broj
 <input type="number" name="b2" value="<?php echo $drugiBroj; ?>">
 
-<input class="button" type="submit" value="lista">
+<input class="button" type="submit" value="Pošalji">
 
 </form>
  <?php

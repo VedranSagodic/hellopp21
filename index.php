@@ -154,6 +154,23 @@ include 'php_osnove/panel.php';
     <a target="_blank" href="/zadaci/zadatak6_07.php">zadatak 6</a>
     <a target="_blank" href="/zadaci/zadatak7_07.php">zadatak 7</a>
 
+    <h1> PREDAVANJE 08</h1>
+
+    <ol>
+        <li><a href="/php_osnove/include.php">Include</a></li>
+        <li><a href="/php_osnove/require.php">Require</a></li>
+        <li><a href="/php_osnove/funkcije.php">Funkcije</a></li>
+    </ol>
+
+    <a target="_blank" href="/zadaci/zadatak1_08.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak2_08.php">zadatak 2</a>
+    <a target="_blank" href="/zadaci/zadatak3_08.php">zadatak 3</a>
+    <a target="_blank" href="/zadaci/zadatak4_08.php">zadatak 4</a>
+    <a target="_blank" href="/zadaci/zadatak5_08.php">zadatak 5</a>
+    <a target="_blank" href="/zadaci/zadatak6_08.php">zadatak 6</a>
+    <a target="_blank" href="/zadaci/zadatak7_08.php">zadatak 7</a>
+
+
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
 </body>

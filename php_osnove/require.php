@@ -18,6 +18,6 @@ echo 'Tekst iz datoteke require.php u nastavku';
 
 
 for($i=0;$i<10;$i++){
-    require '/php_osnove/zajednicko/cetvrta.php';
+    require '/php_osnovezajednicko/cetvrta.php';
     require_once '/php_osnove/zajednicko/treca.php';
 }

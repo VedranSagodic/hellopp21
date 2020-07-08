@@ -170,7 +170,25 @@ include 'php_osnove/panel.php';
     <a target="_blank" href="/zadaci/zadatak6_08.php">zadatak 6</a>
     <a target="_blank" href="/zadaci/zadatak7_08.php">zadatak 7</a>
 
+    <h1>PREDAVANJE 09</h1>
+    <ul>
+        <li><a href="/php_osnove/oop1.php">Klasa, svojstva, metode - objekt</a></li>
+        <li><a href="/php_osnove/magicneMetode.php">Magične metode</a></li>
+        <li><a href="/php_osnove/dinamikaPoziva.php">dinamičan poziv kalsa i metoda</a></li>
+    </ul>
 
+<h1>PREDAVANJE 10</h1>
+<ul>
+        <li><a target="_blank" href="/php_osnove/spajanjeNabazuPodataka.php">Osnovni primjer spajanja</a></li>
+        <li><a target="_blank" href="/php_osnove/kreiranjeTablice.php">Kreiranje tablice</a></li>
+        <li><a target="_blank" href="/php_osnove/radSIznimkama.php">Rad s iznimkama</a></li>
+        <li><a target="_blank" href="/php_osnove/citanjePodataka.php">Čitanje podataka</a></li>
+        <li><a target="_blank" href="https://phpdelusions.net/pdo">OBAVEZNO ČITATI</a></li>
+    </ul>
+
+    <a target="_blank" href="/zadaci/zadatak1_10.php">zadatak 1</a>
+    <a target="_blank" href="/zadaci/zadatak2_10.php">zadatak 2</a>
+    <a target="_blank" href="/zadaci/zadatak3_10.php">zadatak 3</a>
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>
 </body>

@@ -5,12 +5,12 @@
 <meta charset="utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Foundation for Sites</title>
+<title>Predavanja PHP programer</title>
 <link rel="stylesheet" href="assets/css/foundation.css">
 </head>
 <body>
-
-
+<h1>Aplikacija s predavanja</h1>
+<a target="_blank" href="/app_login/index.php">Login u aplikaciju</a>
 <!--PREDAVANJE_03-->
 <h1> PREDAVANJE 03</h1>
 <p>

@@ -21,8 +21,13 @@ if(!isset($_SESSION['autoriziran'])){
 <div class="grid-container">
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
-          <a href="logout.php">Logout</a>
-          <h1> Smjerovi</h1>
+        <div class="grid-x grid-padding-x">
+        <div class="large-6 cell">
+        <h1> Smjerovi</h1>
+        </div>
+        <div class="large-6 cell">
+        <a href="logout.php">Logout</a>
+        </div>
           <?php
           // READ IZ CRUD
           $izraz=$veza->prepare('select * from smjer');
@@ -30,7 +35,7 @@ if(!isset($_SESSION['autoriziran'])){
           $rezultati=$izraz->fetchAll();
           //elog($rezultati);
           ?>
-
+          <a class="success button expanded" href="novi.php">Dodaj novi</a>
           <table class="table-expand">
             <thead>
               <tr class="table-expand-row">
@@ -46,12 +51,22 @@ if(!isset($_SESSION['autoriziran'])){
               ?>
               <tr class="table-expand-row" data-open-details>
                 <td><?=$red->naziv; ?></td>
-                <td class="text-right"><?php echo $red->cijena ?></td>
-                <td><?php echo $red->verificiran ?> <span class="expand-icon"></span></td>
+                <td class="text-right">
+                <?php 
+                
+                echo $red->cijena==null ? '0.00' : $red->cijena;
+                
+                 ?></td>
+                <td>
+                <p class="<?php echo $red->verificiran ? 'success' : 'alert' ?> button"></p> 
+                <span class="expand-icon"></span></td>
               </tr>
               <tr class="table-expand-row-content">
                 <td colspan="3" class="table-expand-row-nested">
                   <p><?php echo $red->opis ?></p>
+                  <a class="button" href="promjena.php?sifra=<?php echo $red->sifra ?>">Promjena</a>
+
+                  <a class="alert button" href="brisanje.php?sifra=<?php echo $red->sifra ?>">Brisanje</a>
                 </td>
               </tr>
             </tbody>

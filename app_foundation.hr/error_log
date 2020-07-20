@@ -1,0 +1,67 @@
+[19-Jul-2020 21:27:52 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/index.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[19-Jul-2020 21:27:58 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/index.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[19-Jul-2020 21:28:00 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/index.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[19-Jul-2020 21:28:12 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/index.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[19-Jul-2020 21:29:59 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/index.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[19-Jul-2020 21:30:01 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/index.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[19-Jul-2020 21:30:08 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/index.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[20-Jul-2020 08:49:34 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/user_page.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[20-Jul-2020 08:49:36 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/user_page.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[20-Jul-2020 08:49:42 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/user_page.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[20-Jul-2020 08:49:45 Europe/Zagreb] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'edunova'@'localhost' (using password: YES) in /home/artemida/public_html/app_foundation.hr/config.php:17
+Stack trace:
+#0 /home/artemida/public_html/app_foundation.hr/config.php(17): PDO->__construct('mysql:host=loca...', 'edunova', 'edunova', Array)
+#1 /home/artemida/public_html/app_foundation.hr/user_page.php(2): require_once('/home/artemida/...')
+#2 {main}
+  thrown in /home/artemida/public_html/app_foundation.hr/config.php on line 17
+[20-Jul-2020 09:43:09 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'version' (T_STRING) in /home/artemida/public_html/app_foundation.hr/user_page.php on line 13

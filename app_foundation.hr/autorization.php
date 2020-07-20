@@ -16,13 +16,12 @@ if(trim($_POST['email'])==='' || trim($_POST['password'])===''){
 // sada sam siguran kako su ključevi postavljeni i kako postoje vrijednosti
 
 //loše dummy rješenje
+
 if($_POST['email']!=='vedran@edunova.hr' && $_POST['lozinka']!=='1234'){ 
-    // korisničko ime i lozinka ne odgovaraju
-    header('location: index.php?p=3');
-    exit;
+        header('location: index.php?p=3');
+        exit;
 }
-
-
 // tu sam siguran da se korisnik uspješno autorizirao i radim što treba
 $_SESSION['autoriziran']=$_POST['email'];
 header('location: user_page.php');
+?>

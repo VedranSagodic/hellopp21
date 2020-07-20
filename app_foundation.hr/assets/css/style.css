@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(rgba(195, 198, 236, 0.7), #000), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+  .button{
+    background-color: rgba(71, 81, 212, 0.267);
+    color: rgba(255, 255, 255, 0.555);
+  }

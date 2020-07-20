@@ -1,0 +1,27 @@
+.translucent-form-overlay{
+    border: 2px solid $medium-grey;
+    padding: $form-spacing;
+    border-radius: $global-radius;
+    margin: 5px 50px;
+  }
+
+label{
+  text-align: center;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.555);
+}
+
+h3{
+  margin: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 100px;
+  background-color: rgba(71, 80, 212, 0.637);
+  color: rgba(255, 255, 255, 0.555);
+}
+
+.button{
+  background-color: rgba(71, 81, 212, 0.267);
+  color: rgba(255, 255, 255, 0.555);
+}

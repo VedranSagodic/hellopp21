@@ -2,10 +2,10 @@
 
 session_start();
 
-$server='127.0.0.1';
-$baza='nekretnine';
-$korisnik='edunova';
-$lozinka='edunova';
+$server='localhost';
+$baza='artemida_pp21';
+$korisnik='artemida';
+$lozinka='Artemida87545';
 
 $dsn='mysql:host=' . $server. ';dbname=' . $baza . ';charset=utf8';
 

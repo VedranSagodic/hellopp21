@@ -1,21 +1,20 @@
 <?php 
 require_once 'config.php';
-
 ?>
 <!doctype html>
-<html class="no-js" lang="en">
-  <head profile="https://polaznik13.edunova.hr/app_foundation.hr/index.php">
+<html lang="en">
+  <head profile="https://polaznik13.edunova.hr/app_bootstrap.hr/index.php">
 <link rel="icon" 
       type="image/png" 
       href="https://polaznik13.edunova.hr/fav-icon/fav-icon-16x16.png">
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property=”og:type” content=”website” />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Properties App</title>
-    <link rel="stylesheet" href="assets/css/foundation.css">
-    <link rel="stylesheet" href="assets/css/form.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/form.css">
+    <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/style.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/fav-icon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/fav-icon/apple-icon-60x60.png">
@@ -60,19 +59,18 @@ switch ($p) {
 
 ?>
 </h4>
-<form class="log-in-form" action="autorization.php" method="POST">
-  <label>Email
-  <input type="email" id="email" name="email" placeholder="Email">
-  </label>
-  <label>Password
-  <input type="password" id="pass" name="password" placeholder="Password">
-  </label>
-  <input class="button expanded" type="submit" value="Sign in">
+<form  action="autorization.php" method="POST">
+  <div class="form-group">
+    <input type="email" id="email" name="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <input type="password" id="pass" name="password" class="form-control" placeholder="Password">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <a href="https://github.com/VedranSagodic/hellopp21/tree/master/app_foundation.hr">Link na github kod</a>
 </form>
 
-<a href="https://github.com/VedranSagodic/hellopp21/tree/master/app_foundation.hr">Link na github kod</a>
-
-<script src="assets/js/vendor.js"></script>
-<script src="assets/js/foundation.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

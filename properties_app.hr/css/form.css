@@ -1,0 +1,70 @@
+.form{
+    border: 2px solid rgba(133, 26, 20);
+    border-radius: 100px;
+    padding: 20px 0;
+    margin:40px 500px 10px 500px;
+    height: 200px;
+    color: #fff;
+}
+.formObject{
+    border: 3px solid rgba(133, 26, 20);
+    background-color: rgba(189, 133, 130);
+    border-radius: 100px;
+    padding: 5px 10px;;
+    margin: 15px auto;
+    width: 400px;
+    height: 40px;
+}
+.formElement{
+  display: inline-block;
+  padding: 5px 0;
+  text-align: left;
+  width: 200px;
+}
+label{
+  display: inline-block;
+  padding: 10px 0;
+  margin-left:40px;
+  text-align: center;
+  width: 100px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.button{
+  display: block;
+  padding: 10px 10px;;
+  margin: 15px auto;
+  border: 2px solid rgba(133, 26, 20);
+  background-color: rgba(189, 133, 130);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  width:200px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+button:hover{
+  background-color: rgba(133, 26, 20);
+}
+a{
+    display: block;
+    padding: 10px 10px;
+    margin: 20px 670px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgba(133, 26, 20);
+    color: #fff;
+    text-decoration: none;
+    width: 150px;
+    font-family: 'Lato', sans-serif;
+
+}
+a:hover{
+    background-color:rgba(133, 26, 20);
+    text-decoration: none;
+    border-color: rgba(133, 26, 20);
+    color: #fff;
+}
+
+

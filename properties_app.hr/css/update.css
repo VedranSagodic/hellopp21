@@ -1,0 +1,74 @@
+.form{
+  border: 2px solid rgba(133, 26, 20);
+  border-radius: 100px;
+  padding: 20px;
+  margin:60px 500px 60px 500px;
+  height: 500px;
+  color: #fff;
+}
+.formObject{
+  border: 3px solid rgba(133, 26, 20);
+  background-color: rgba(189, 133, 130);
+  border-radius: 100px;
+  padding: 5px 10px;;
+  margin: 15px auto;
+  width: 400px;
+  height: 40px;
+}
+.formElement{
+  display: inline-block;
+  padding: 5px 0;
+  text-align: left;
+  width: 200px;
+}
+label{
+  display: inline-block;
+  padding: 9px 0;
+  margin-left:40px;
+  text-align: center;
+  width: 100px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+input{
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+
+}
+
+.btn-back{
+  padding: 10px 10px;
+  margin: 10px 70px;
+  border: 2px solid rgba(133, 26, 20);
+  background-color: rgba(82, 174, 179);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  width:200px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.btn-back:hover{
+  background-color: rgba(133, 26, 20);
+}
+.btn-submit{
+  display: block;
+  padding: 10px 10px;;
+  margin: 30px auto;
+  border: 2px solid rgba(133, 26, 20);
+  background-color: rgba(189, 133, 130);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  width:200px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+}
+.btn-submit:hover{
+  background-color: rgba(133, 26, 20);
+}

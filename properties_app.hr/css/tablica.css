@@ -1,0 +1,28 @@
+.header-title{
+  margin: 5px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 2px solid;
+  border-radius: 100px;
+  background-color: rgba(71, 80, 212, 0.637);
+  color: rgba(255, 255, 255, 0.555);
+}
+.large-6{
+  text-align:center;
+  
+}
+.button{
+  border-radius: 100px;
+  border: 5px ;
+  margin:10px 10px;
+  padding: 15px;
+}
+.table{
+  background-color: #fff;
+  margin:0 auto;
+  text-align:center;
+}
+.table-row{
+  text-align: left;
+  border:1px solid;
+}

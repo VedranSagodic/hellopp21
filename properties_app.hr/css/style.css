@@ -1,0 +1,30 @@
+body{
+    background-image: linear-gradient(rgba(148, 223, 227, 0.404), #000), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+  }
+
+h1{
+    padding: 100px 50;
+    margin:30px 400px 50px 400px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid rgba(133, 26, 20);
+    border-radius: 10px;
+    background-color: rgba(189, 133, 130);
+    color: #fff;
+    font-family: 'Cinzel', serif;
+}
+
+h3{
+    padding: 10px 50px;
+    margin:50px 500px 50px 500px;
+    text-align: center;
+    border: 2px solid  rgba(133, 26, 20);
+    border-radius: 10px;
+    background-color:rgba(189, 133, 130);
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,8 +1,14 @@
 <?php
 require_once 'config.php';
 
+$userLogin = array (
+    'vedran@edunova.hr'=>'1234',
+    'ivona@edunova.hr'=>'123456',
+    'edunova@edunova.hr'=>'edunova'
+);
+
 if(!isset($_POST['email']) || !isset($_POST['password'])){
-    header('location: index.php?error=1');
+     header('location: index.php?error=1');
     exit;
 }
 
@@ -17,13 +23,16 @@ if(trim($_POST['email'])==='' || trim($_POST['password'])===''){
 
 //loše dummy rješenje
 
-if($_POST['email']!=='vedran@edunova.hr' && $_POST['lozinka']!=='1234'){ 
-        header('location: index.php?error=3');
-        exit;
+    
+if(!($userLogin[$_POST['email']] == $_POST['password'])) {
+    header('location: index.php?error=3');
+    exit;
+    }
+
+if(isset($_POST['email'])) {
+if($userLogin[$_POST['email']] == $_POST['password']) {
+    $_SESSION['autoriziran'] = $_POST['email'];
+    header('location: user_page.php');
+    }
 }
-
-// tu sam siguran da se korisnik uspješno autorizirao i radim što treba
-$_SESSION['autoriziran']=$_POST['email'];
-header('location: user_page.php');
-
 ?>

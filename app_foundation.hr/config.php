@@ -3,9 +3,9 @@
 session_start();
 
 $server='localhost';
-$baza='nekretnine';
-$korisnik='edunova';
-$lozinka='edunova';
+$baza='artemida_pp21';
+$korisnik='artemida';
+$lozinka='Artemida87545';
 
 $dsn='mysql:host=' . $server. ';dbname=' . $baza . ';charset=utf8';
 

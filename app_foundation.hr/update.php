@@ -1,6 +1,10 @@
 <?php
 require_once 'config.php';
 
+if(!isset($_SESSION['autoriziran'])){
+  header('location: index.php');
+}
+
 if(isset($_POST['name'])){
 
 
@@ -25,14 +29,20 @@ $user=$izraz->fetch();
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
-<head profile="https://polaznik13.edunova.hr/app_foundation.hr/index.php">
+<html prefix="og: https://ogp.me/ns#">
+<head profile="https://polaznik13.edunova.hr/app_foundation.hr/update.php">
 <link rel="icon" 
       type="image/png" 
       href="https://polaznik13.edunova.hr/fav-icon/fav-icon-16x16.png">
 <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nekretnine app</title>
+    <title>Properties app</title>
+
+    <meta property="og:title" content="Properties App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polaznik13.edunova.hr/app_foundation.hr/update.php" />
+
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/update.css">

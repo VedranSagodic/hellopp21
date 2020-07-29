@@ -4,6 +4,7 @@ require_once 'config.php';
 ?>
 <!doctype html>
 <html class="no-js" lang="en">
+<html prefix="og: https://ogp.me/ns#">
   <head profile="https://polaznik13.edunova.hr/app_foundation.hr/index.php">
 <link rel="icon" 
       type="image/png" 
@@ -13,6 +14,11 @@ require_once 'config.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property=”og:type” content=”website” />
     <title>Properties App</title>
+
+    <meta property="og:title" content="Properties App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polaznik13.edunova.hr/app_foundation.hr/index.php" />
+
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/form.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -70,7 +76,7 @@ switch ($p) {
   <input class="button expanded" type="submit" value="Sign in">
 </form>
 
-<a href="https://github.com/VedranSagodic/hellopp21/tree/master/app_foundation.hr">Link na github kod</a>
+<a href="https://github.com/VedranSagodic/PropertiesApp_foundation">Link na github kod</a>
 
 <script src="assets/js/vendor.js"></script>
 <script src="assets/js/foundation.js"></script>

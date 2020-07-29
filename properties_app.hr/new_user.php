@@ -11,15 +11,21 @@ if(isset($_POST['name'])){
 }
 ?>
 <!doctype html>
+<html prefix="og: https://ogp.me/ns#">
 <html class="no-js" lang="en">
-<head profile="https://polaznik13.edunova.hr/app_foundation.hr/index.php">
+<head profile="https://polaznik13.edunova.hr/properties_app.hr/new_user.php">
 <link rel="icon" 
       type="image/png" 
       href="https://polaznik13.edunova.hr/fav-icon/fav-icon-16x16.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge=1">
-    <title>Nekretnine app</title>
+    <title>Properties app</title>
+
+    <meta property="og:title" content="Properties App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polaznik13.edunova.hr/properties_app.hr/new_user.php" />
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/newUser.css">
     <link rel="stylesheet" href="css/queries.css">
@@ -53,27 +59,27 @@ if(isset($_POST['name'])){
 <form class="form" method="POST">
     <div class="formObject">
 <label>Name:</label>
-      <input class="formElement" type="text" id="name" name="name" placeholder="Set user Name">
+      <input class="formElement" type="text" id="name" name="name" placeholder="Set user Name" required>
   </div>
   <div class="formObject">
   <label>Surname:</label>
-      <input class="formElement" type="text" id="surname" name="surname" placeholder=" Set user Surname">
+      <input class="formElement" type="text" id="surname" name="surname" placeholder=" Set user Surname" required>
   </div>
   <div class="formObject">
   <label>Password:</label>
-      <input class="formElement" type="text" id="password" name="password"  placeholder="Set user Password">
+      <input class="formElement" type="text" id="password" name="password"  placeholder="Set user Password" required>
   </div>
   <div class="formObject">
   <label>E-mail:</label>
-      <input class="formElement" type="e-mail" id="e_mail" name="e_mail"  placeholder="Set user E-mail">
+      <input class="formElement" type="e-mail" id="e_mail" name="e_mail"  placeholder="Set user E-mail" required>
   </div>
   <div class="formObject">
   <label>Phone:</label>
-      <input class="formElement" type="number" id="phone" name="phone" placeholder="Set user Phone number">
+      <input class="formElement" type="number" id="phone" name="phone" placeholder="Set user Phone number" required>
   </div>
   <div class="formObject">
   <label>Address:</label>
-      <input class="formElement" type="text" id="address" name="address" placeholder="Set user Address">
+      <input class="formElement" type="text" id="address" name="address" placeholder="Set user Address" required>
   </div>
   <button type="submit" class="btn-submit">Submit</button>
   </div>

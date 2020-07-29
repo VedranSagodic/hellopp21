@@ -2,6 +2,7 @@
 require_once 'config.php';
 ?>
 <!doctype html>
+<html prefix="og: https://ogp.me/ns#">
 <html lang="en">
   <head profile="https://polaznik13.edunova.hr/properties_app.hr/index.php">
 <link rel="icon" 
@@ -11,6 +12,11 @@ require_once 'config.php';
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge=1">
     <title>Properties App</title>
+
+    <meta property="og:title" content="Properties App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polaznik13.edunova.hr/properties_app.hr/index.php" />
+
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/queries.css">
@@ -74,7 +80,7 @@ switch ($error) {
   </div>
   <button type="submit" class="button">Submit</button>
 </form>
-<a href="https://github.com/VedranSagodic/hellopp21/tree/master/app_bootstrap.hr">Link na github kod</a>
+<a href="https://github.com/VedranSagodic/PropertiesApp-without-rwd">Link na github kod</a>
   </div>
 </div>
 

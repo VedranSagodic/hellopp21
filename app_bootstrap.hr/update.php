@@ -24,15 +24,21 @@ $user=$izraz->fetch();
 
 ?>
 <!doctype html>
+<html prefix="og: https://ogp.me/ns#">
 <html class="no-js" lang="en">
-<head profile="https://polaznik13.edunova.hr/app_foundation.hr/index.php">
+<head profile="https://polaznik13.edunova.hr/app_bootstrap.hr/update.php">
 <link rel="icon" 
       type="image/png" 
       href="https://polaznik13.edunova.hr/fav-icon/fav-icon-16x16.png">
 <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nekretnine app</title>
+    <title>Properties app</title>
+
+    <meta property="og:title" content="Properties App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polaznik13.edunova.hr/app_bootstrap.hr/update.php" />
+
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/style.css">
     <link rel="stylesheet" href="bootstrap-4.5.0-dist/css/update.css">
@@ -91,7 +97,7 @@ $user=$izraz->fetch();
 </form>
 
 
-<script src="assets/js/vendor.js"></script>
-<script src="assets/js/foundation.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.js"></script>
+<script src="bootstrap-4.5.0-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

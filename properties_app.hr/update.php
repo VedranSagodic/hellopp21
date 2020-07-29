@@ -24,15 +24,21 @@ $user=$izraz->fetch();
 
 ?>
 <!doctype html>
+<html prefix="og: https://ogp.me/ns#">
 <html class="no-js" lang="en">
-<head profile="https://polaznik13.edunova.hr/app_foundation.hr/index.php">
+<head profile="https://polaznik13.edunova.hr/properties_app.hr/update.php">
 <link rel="icon" 
       type="image/png" 
       href="https://polaznik13.edunova.hr/fav-icon/fav-icon-16x16.png">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
     <meta http-equiv="X-UA-Compatible" content="IE=edge=1">
-    <title>Nekretnine app</title>
+    <title>Properties app</title>
+
+    <meta property="og:title" content="Properties App" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://polaznik13.edunova.hr/properties_app.hr/update.php" />
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/update.css">
     <link rel="stylesheet" href="css/queries.css">
